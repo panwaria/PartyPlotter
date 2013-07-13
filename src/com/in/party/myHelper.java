@@ -10,7 +10,7 @@ import android.util.Log;
 public class myHelper extends SQLiteOpenHelper {
 
 
-	public static final String DB_NAME = "KeyValueStore.db";
+	public static final String DB_NAME = "partyStore.db";
 	public static int DB_VERSION= 1;
 	public static final String TABLE_NAME= "Store";
 	public static final String KEY_FIELD= "key";
