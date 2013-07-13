@@ -1,6 +1,10 @@
 package com.in.party;
 
 import android.content.Intent;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -21,7 +25,9 @@ public class MainActivity extends FragmentActivity
 
 	private boolean isResumed = false;
 	
-    @Override
+//	ExecutorService exec = Executors.newFixedThreadPool(3);
+
+	@Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -153,3 +159,5 @@ public class MainActivity extends FragmentActivity
     };
     
 }
+
+
